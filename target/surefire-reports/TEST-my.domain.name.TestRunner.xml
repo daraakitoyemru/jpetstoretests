@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="my.domain.name.TestRunner" time="92.63" tests="10" errors="0" skipped="0" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="my.domain.name.TestRunner" time="76.415" tests="4" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/daraakitoye/Web-2/jpetstoretests/target/surefire/surefirebooter3339273800320657268.jar /Users/daraakitoye/Web-2/jpetstoretests/target/surefire 2025-03-15T11-26-53_327-jvmRun1 surefire13029367328841595820tmp surefire_06414899588699618633tmp"/>
+    <property name="sun.java.command" value="/Users/daraakitoye/Web-2/jpetstoretests/target/surefire/surefirebooter2501186698033688996.jar /Users/daraakitoye/Web-2/jpetstoretests/target/surefire 2025-03-15T14-11-52_851-jvmRun1 surefire2738695145353553421tmp surefire_017371024721444865364tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/daraakitoye/Web-2/jpetstoretests/target/test-classes:/Users/daraakitoye/Web-2/jpetstoretests/target/classes:/Users/daraakitoye/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/daraakitoye/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar:/Users/daraakitoye/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/daraakitoye/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/daraakitoye/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/daraakitoye/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/daraakitoye/.m2/repository/net/masterthought/cucumber-reporting/4.11.2/cucumber-reporting-4.11.2.jar:/Users/daraakitoye/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar:/Users/daraakitoye/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/daraakitoye/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/daraakitoye/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/daraakitoye/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/daraakitoye/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/daraakitoye/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/daraakitoye/.m2/repository/joda-time/joda-time/2.10.2/joda-time-2.10.2.jar:/Users/daraakitoye/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/daraakitoye/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/daraakitoye/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar:/Users/daraakitoye/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/Users/daraakitoye/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20190610.1/owasp-java-html-sanitizer-20190610.1.jar:/Users/daraakitoye/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/daraakitoye/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/daraakitoye/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/daraakitoye/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/daraakitoye/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/daraakitoye/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/daraakitoye/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/daraakitoye/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/daraakitoye/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/daraakitoye/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/daraakitoye/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/daraakitoye/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/daraakitoye/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/daraakitoye/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/daraakitoye/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/daraakitoye/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/daraakitoye/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/daraakitoye/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/daraakitoye/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/daraakitoye/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/daraakitoye/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/daraakitoye/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/daraakitoye/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/daraakitoye/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/daraakitoye/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/daraakitoye/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/daraakitoye/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/daraakitoye/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/daraakitoye/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/daraakitoye/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/daraakitoye/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/daraakitoye/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/daraakitoye/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/Users/daraakitoye/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/daraakitoye/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/daraakitoye/Web-2/jpetstoretests/target/surefire/surefirebooter3339273800320657268.jar"/>
+    <property name="surefire.real.class.path" value="/Users/daraakitoye/Web-2/jpetstoretests/target/surefire/surefirebooter2501186698033688996.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -58,45 +58,14 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Successfully changing the password" classname="Change Password in JPetStore" time="7.656">
-    <failure message="URL should contain Catalog.action" type="java.lang.AssertionError">java.lang.AssertionError: URL should contain Catalog.action
-</failure>
-    <system-out><![CDATA[
-@change_password
-Scenario: Successfully changing the password                     # src/test/java/my/domain/name/feature/change_password.feature:8
-  Given I am logged into JPetStore                               # my.domain.name.steps.ChangePasswordSteps.i_am_logged_into_jpetstore()
-      java.lang.AssertionError: URL should contain Catalog.action
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.ChangePasswordSteps.i_am_logged_into_jpetstore(ChangePasswordSteps.java:52)
-	at ✽.I am logged into JPetStore(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/change_password.feature:9)
-
-  When I navigate to the my account page                         # my.domain.name.steps.ChangePasswordSteps.i_navigate_to_account_page()
-  And I enter a new password "NewPass"                           # my.domain.name.steps.ChangePasswordSteps.i_enter_new_password(java.lang.String)
-  And I confirm the new password "NewPass"                       # my.domain.name.steps.ChangePasswordSteps.i_confirm_new_password(java.lang.String)
-  And I save account information                                 # my.domain.name.steps.ChangePasswordSteps.i_save_account_information()
-  Then I should be directed to home page                         # my.domain.name.steps.ChangePasswordSteps.i_should_be_redirected_to_home_page()
-  And I should be able to log in with the new password "NewPass" # my.domain.name.steps.ChangePasswordSteps.i_should_be_able_to_login_with_new_password(java.lang.String)
-]]></system-out>
-    <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
-[main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
-[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 25733
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 25733.
-Mar 15, 2025 11:26:55 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Successful Account Creation #1" classname="Create New Account" time="22.731"/>
-  <testcase name="Successful Account Creation #2" classname="Create New Account" time="22.748"/>
-  <testcase name="Attempt to Create Account with Existing User ID" classname="Create New Account" time="15.603">
+  <testcase name="Successful Account Creation #1" classname="Create New Account" time="23.717"/>
+  <testcase name="Successful Account Creation #2" classname="Create New Account" time="23.083"/>
+  <testcase name="Attempt to Create Account with Existing User ID" classname="Create New Account" time="15.826">
     <failure message="Error message is displayed" type="java.lang.AssertionError">java.lang.AssertionError: Error message is displayed
 </failure>
     <system-out><![CDATA[
-Scenario Outline: Attempt to Create Account with Existing User ID # src/test/java/my/domain/name/feature/createNewAccount.feature:36
+@create-account
+Scenario Outline: Attempt to Create Account with Existing User ID # src/test/java/my/domain/name/feature/createNewAccount.feature:37
   Given I am on the new account page                              # my.domain.name.steps.CreateNewAcct.i_am_on_the_new_account_page()
   When I enter valid user id "quality2"                           # my.domain.name.steps.CreateNewAcct.i_enter_valid_user_id(java.lang.String)
   And I enter valid password "12345678"                           # my.domain.name.steps.CreateNewAcct.i_enter_valid_password(java.lang.String)
@@ -107,187 +76,50 @@ Scenario Outline: Attempt to Create Account with Existing User ID # src/test/jav
       java.lang.AssertionError: Error message is displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.CreateNewAcct.i_should_see_an_error_message(CreateNewAcct.java:159)
-	at ✽.I should see an error message(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/createNewAccount.feature:32)
+	at my.domain.name.steps.CreateNewAcct.i_should_see_an_error_message(CreateNewAcct.java:157)
+	at ✽.I should see an error message(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/createNewAccount.feature:33)
 
 ]]></system-out>
     <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
 [main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
 [main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 23141
+Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 27215
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 23141.
-Mar 15, 2025 11:27:48 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 27215.
+Mar 15, 2025 2:12:41 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Testing valid login #1" classname="Test JPetStore Login" time="3.881">
-    <failure message="User should be logged in successfully" type="java.lang.AssertionError">java.lang.AssertionError: User should be logged in successfully
+  <testcase name="Attempt to Create Account without Filling Account Information" classname="Create New Account" time="13.425">
+    <failure message="Validation error message is displayed" type="java.lang.AssertionError">java.lang.AssertionError: Validation error message is displayed
 </failure>
     <system-out><![CDATA[
-Scenario Outline: Testing valid login                                           # src/test/java/my/domain/name/feature/login.feature:11
-  Given I open Chrome browser                                                   # my.domain.name.steps.LoginSteps.i_open_Chrome_browser()
-  And I go to JPetStore sign in page                                            # my.domain.name.steps.LoginSteps.i_go_to_jpetstore_sign_in_page()
-  When I enter valid "ashley" and "12345678" combination and press login button # my.domain.name.steps.LoginSteps.i_enter_valid_and_combination(java.lang.String,java.lang.String)
-  Then I should be able to login successfully                                   # my.domain.name.steps.LoginSteps.i_should_be_able_to_login_successfully()
-      java.lang.AssertionError: User should be logged in successfully
+@create-account
+Scenario Outline: Attempt to Create Account without Filling Account Information # src/test/java/my/domain/name/feature/createNewAccount.feature:49
+  Given I am on the new account page                                            # my.domain.name.steps.CreateNewAcct.i_am_on_the_new_account_page()
+  When I enter valid user id "newuser123"                                       # my.domain.name.steps.CreateNewAcct.i_enter_valid_user_id(java.lang.String)
+  And I enter valid password "pass123"                                          # my.domain.name.steps.CreateNewAcct.i_enter_valid_password(java.lang.String)
+  And I enter valid confirm password "pass123"                                  # my.domain.name.steps.CreateNewAcct.i_enter_valid_confirm_password(java.lang.String)
+  When I save my account information                                            # my.domain.name.steps.CreateNewAcct.i_save_my_account_information()
+  Then I should see validation error message                                    # my.domain.name.steps.CreateNewAcct.i_should_see_validation_error_message()
+      java.lang.AssertionError: Validation error message is displayed
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.LoginSteps.i_should_be_able_to_login_successfully(LoginSteps.java:69)
-	at ✽.I should be able to login successfully(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/login.feature:7)
+	at my.domain.name.steps.CreateNewAcct.i_should_see_validation_error_message(CreateNewAcct.java:179)
+	at ✽.I should see validation error message(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/createNewAccount.feature:45)
 
 ]]></system-out>
     <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
 [main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
 [main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 3310
+Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 6093
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 3310.
-Mar 15, 2025 11:28:03 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Testing valid login #2" classname="Test JPetStore Login" time="3.887">
-    <failure message="User should be logged in successfully" type="java.lang.AssertionError">java.lang.AssertionError: User should be logged in successfully
-</failure>
-    <system-out><![CDATA[
-Scenario Outline: Testing valid login                                             # src/test/java/my/domain/name/feature/login.feature:12
-  Given I open Chrome browser                                                     # my.domain.name.steps.LoginSteps.i_open_Chrome_browser()
-  And I go to JPetStore sign in page                                              # my.domain.name.steps.LoginSteps.i_go_to_jpetstore_sign_in_page()
-  When I enter valid "quality2" and "12345678" combination and press login button # my.domain.name.steps.LoginSteps.i_enter_valid_and_combination(java.lang.String,java.lang.String)
-  Then I should be able to login successfully                                     # my.domain.name.steps.LoginSteps.i_should_be_able_to_login_successfully()
-      java.lang.AssertionError: User should be logged in successfully
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.LoginSteps.i_should_be_able_to_login_successfully(LoginSteps.java:69)
-	at ✽.I should be able to login successfully(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/login.feature:7)
-
-]]></system-out>
-    <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
-[main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
-[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 47534
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 47534.
-Mar 15, 2025 11:28:07 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Testing invalid login #1" classname="Test JPetStore Login" time="3.825">
-    <failure message="Error message should be displayed" type="java.lang.AssertionError">java.lang.AssertionError: Error message should be displayed
-</failure>
-    <system-out><![CDATA[
-Scenario Outline: Testing invalid login                                            # src/test/java/my/domain/name/feature/login.feature:22
-  Given I open Chrome browser                                                      # my.domain.name.steps.LoginSteps.i_open_Chrome_browser()
-  And I go to JPetStore sign in page                                               # my.domain.name.steps.LoginSteps.i_go_to_jpetstore_sign_in_page()
-  When I enter invalid "ashley" and "wrongpass" combination and press login button # my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login(java.lang.String,java.lang.String)
-  Then I should not be able to login                                               # my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login()
-      java.lang.AssertionError: Error message should be displayed
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login(LoginSteps.java:106)
-	at ✽.I should not be able to login(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/login.feature:18)
-
-]]></system-out>
-    <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
-[main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
-[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 7470
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 7470.
-Mar 15, 2025 11:28:11 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Testing invalid login #2" classname="Test JPetStore Login" time="4.198">
-    <failure message="Error message should be displayed" type="java.lang.AssertionError">java.lang.AssertionError: Error message should be displayed
-</failure>
-    <system-out><![CDATA[
-Scenario Outline: Testing invalid login                                         # src/test/java/my/domain/name/feature/login.feature:23
-  Given I open Chrome browser                                                   # my.domain.name.steps.LoginSteps.i_open_Chrome_browser()
-  And I go to JPetStore sign in page                                            # my.domain.name.steps.LoginSteps.i_go_to_jpetstore_sign_in_page()
-  When I enter invalid "quality2" and "1234" combination and press login button # my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login(java.lang.String,java.lang.String)
-  Then I should not be able to login                                            # my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login()
-      java.lang.AssertionError: Error message should be displayed
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login(LoginSteps.java:106)
-	at ✽.I should not be able to login(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/login.feature:18)
-
-]]></system-out>
-    <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
-[main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
-[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 6835
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 6835.
-Mar 15, 2025 11:28:15 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Testing blank fields #1" classname="Test JPetStore Login" time="3.961">
-    <failure message="Error message should be displayed" type="java.lang.AssertionError">java.lang.AssertionError: Error message should be displayed
-</failure>
-    <system-out><![CDATA[
-Scenario Outline: Testing blank fields                                      # src/test/java/my/domain/name/feature/login.feature:33
-  Given I open Chrome browser                                               # my.domain.name.steps.LoginSteps.i_open_Chrome_browser()
-  And I go to JPetStore sign in page                                        # my.domain.name.steps.LoginSteps.i_go_to_jpetstore_sign_in_page()
-  When I enter blank "blank" and "blank" combination and press login button # my.domain.name.steps.LoginSteps.i_enter_blank_information(java.lang.String,java.lang.String)
-  Then I should not be able to login                                        # my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login()
-      java.lang.AssertionError: Error message should be displayed
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login(LoginSteps.java:106)
-	at ✽.I should not be able to login(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/login.feature:29)
-
-]]></system-out>
-    <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
-[main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
-[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 44244
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 44244.
-Mar 15, 2025 11:28:19 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Testing blank fields #2" classname="Test JPetStore Login" time="3.76">
-    <failure message="Error message should be displayed" type="java.lang.AssertionError">java.lang.AssertionError: Error message should be displayed
-</failure>
-    <system-out><![CDATA[
-Scenario Outline: Testing blank fields                                      # src/test/java/my/domain/name/feature/login.feature:34
-  Given I open Chrome browser                                               # my.domain.name.steps.LoginSteps.i_open_Chrome_browser()
-  And I go to JPetStore sign in page                                        # my.domain.name.steps.LoginSteps.i_go_to_jpetstore_sign_in_page()
-  When I enter blank "blank" and "blank" combination and press login button # my.domain.name.steps.LoginSteps.i_enter_blank_information(java.lang.String,java.lang.String)
-  Then I should not be able to login                                        # my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login()
-      java.lang.AssertionError: Error message should be displayed
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at my.domain.name.steps.LoginSteps.i_should_not_be_able_to_login(LoginSteps.java:106)
-	at ✽.I should not be able to login(file:///Users/daraakitoye/Web-2/jpetstoretests/src/test/java/my/domain/name/feature/login.feature:29)
-
-]]></system-out>
-    <system-err><![CDATA[[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading CfT URL ('null') to get version of chromedriver (For input string: "latest")
-[main] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest
-[main] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest to get latest version of chromedriver (Error HTTP 404 executing https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_latest)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/daraakitoye/.cache/selenium/chromedriver/mac-arm64/134.0.6998.88/chromedriver
-Starting ChromeDriver 134.0.6998.88 (7e3d5c978c6d3a6eda25692cfac7f893a2b20dd0-refs/branch-heads/6998@{#1898}) on port 15070
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 15070.
-Mar 15, 2025 11:28:23 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 6093.
+Mar 15, 2025 2:12:57 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

@@ -1,3 +1,4 @@
+@create-account
 Feature: Create New Account
   As a user
   I want to be able to click the link to register my account
@@ -35,3 +36,14 @@ Feature: Create New Account
       | existingUserId | password |
       | quality2          | 12345678     |
     
+  Scenario Outline: Attempt to Create Account without Filling Account Information
+    Given I am on the new account page
+    When I enter valid user id "<userId>"
+    And I enter valid password "<password>"
+    And I enter valid confirm password "<password>"
+    When I save my account information
+    Then I should see validation error message
+
+    Examples: 
+      | userId      | password |
+      | newuser123  | pass123  |

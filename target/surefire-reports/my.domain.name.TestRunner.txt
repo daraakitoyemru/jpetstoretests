@@ -1,28 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: my.domain.name.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 92.63 s <<< FAILURE! - in my.domain.name.TestRunner
-Successfully changing the password(Change Password in JPetStore)  Time elapsed: 7.656 s  <<< FAILURE!
-java.lang.AssertionError: URL should contain Catalog.action
-
-Attempt to Create Account with Existing User ID(Create New Account)  Time elapsed: 15.603 s  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 76.415 s <<< FAILURE! - in my.domain.name.TestRunner
+Attempt to Create Account with Existing User ID(Create New Account)  Time elapsed: 15.826 s  <<< FAILURE!
 java.lang.AssertionError: Error message is displayed
 
-Testing valid login #1(Test JPetStore Login)  Time elapsed: 3.881 s  <<< FAILURE!
-java.lang.AssertionError: User should be logged in successfully
-
-Testing valid login #2(Test JPetStore Login)  Time elapsed: 3.887 s  <<< FAILURE!
-java.lang.AssertionError: User should be logged in successfully
-
-Testing invalid login #1(Test JPetStore Login)  Time elapsed: 3.825 s  <<< FAILURE!
-java.lang.AssertionError: Error message should be displayed
-
-Testing invalid login #2(Test JPetStore Login)  Time elapsed: 4.198 s  <<< FAILURE!
-java.lang.AssertionError: Error message should be displayed
-
-Testing blank fields #1(Test JPetStore Login)  Time elapsed: 3.961 s  <<< FAILURE!
-java.lang.AssertionError: Error message should be displayed
-
-Testing blank fields #2(Test JPetStore Login)  Time elapsed: 3.76 s  <<< FAILURE!
-java.lang.AssertionError: Error message should be displayed
+Attempt to Create Account without Filling Account Information(Create New Account)  Time elapsed: 13.425 s  <<< FAILURE!
+java.lang.AssertionError: Validation error message is displayed
 

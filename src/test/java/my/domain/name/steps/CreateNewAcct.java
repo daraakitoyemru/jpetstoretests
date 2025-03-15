@@ -165,4 +165,25 @@ public class CreateNewAcct {
       e.printStackTrace();
     }
   }
+
+  @Then("I should see validation error message")
+  public void i_should_see_validation_error_message() {
+    try {
+      Thread.sleep(2000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
+
+    String pageSource = driver.getPageSource();
+    Assert.assertTrue(
+      "Validation error message is displayed",
+      pageSource.contains("One or more required filed does not have a value.")
+    );
+
+    try {
+      Thread.sleep(2000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
+  }
 }
