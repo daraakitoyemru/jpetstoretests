@@ -1,0 +1,6 @@
+my/domain/name/TestRunner.class
+my/domain/name/steps/CreateNewAcct.class
+my/domain/name/config/WebDriverConfig.class
+my/domain/name/steps/LoginSteps.class
+my/domain/name/steps/ChangePasswordSteps.class
+my/domain/name/hooks/WebDriverHooks.class
