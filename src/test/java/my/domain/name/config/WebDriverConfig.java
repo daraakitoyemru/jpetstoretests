@@ -13,6 +13,8 @@ public class WebDriverConfig {
 
   private static WebDriver driver;
 
+  // note: claude ai was used for easy chrome driver setup so tests can run on all our machines
+
   /**
    * Initialize and get the WebDriver instance
    * @return WebDriver instance
