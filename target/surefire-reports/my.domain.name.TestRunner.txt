@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: my.domain.name.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 76.415 s <<< FAILURE! - in my.domain.name.TestRunner
-Attempt to Create Account with Existing User ID(Create New Account)  Time elapsed: 15.826 s  <<< FAILURE!
-java.lang.AssertionError: Error message is displayed
-
-Attempt to Create Account without Filling Account Information(Create New Account)  Time elapsed: 13.425 s  <<< FAILURE!
-java.lang.AssertionError: Validation error message is displayed
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 79.14 s - in my.domain.name.TestRunner

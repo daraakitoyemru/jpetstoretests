@@ -1,3 +1,4 @@
+@login
 Feature: Test JPetStore Login
  
   Scenario Outline: Testing valid login
@@ -22,13 +23,24 @@ Feature: Test JPetStore Login
       | ashley    | wrongpass |
       | quality2    | 1234 |
       
-  Scenario Outline: Testing blank fields
+  Scenario Outline: Testing blank username
     Given I open Chrome browser
     And I go to JPetStore sign in page
-    When I enter blank "<username>" and "<password>" combination and press login button
+    When I enter blank "<username>" and valid "<password>" combination and press login button
     Then I should not be able to login
    	
     Examples: 
       | username    | password    |
-      | blank    | blank |
-      | blank    | blank |
+      | blank    | 12345678 |
+      | blank    | 12345678 |
+      
+	Scenario Outline: Testing blank password
+		Given I open Chrome browser
+    And I go to JPetStore sign in page
+    When I enter "<username>" and blank "<password>" combination and press login button
+    Then I should not be able to login
+   	
+    Examples: 
+      | username    | password    |
+      | ashley    | blank |
+      | quality2    | blank |

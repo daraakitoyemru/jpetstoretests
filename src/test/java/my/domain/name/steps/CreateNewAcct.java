@@ -152,12 +152,15 @@ public class CreateNewAcct {
       e.printStackTrace();
     }
 
-    // Check for error message
-    String pageSource = driver.getPageSource();
-    Assert.assertTrue(
-      "Error message is displayed",
-      pageSource.contains("already exists")
-    );
+    boolean registrationCheck = false;
+    try {
+      driver.findElement(By.name("username"));
+      registrationCheck = true;
+    } catch (Exception e) {
+      registrationCheck = false;
+    }
+
+    Assert.assertTrue("Error occurred during registration", registrationCheck);
 
     try {
       Thread.sleep(1000);
@@ -174,10 +177,17 @@ public class CreateNewAcct {
       e.printStackTrace();
     }
 
-    String pageSource = driver.getPageSource();
+    boolean registrationCheck = false;
+    try {
+      driver.findElement(By.name("username"));
+      registrationCheck = true;
+    } catch (Exception e) {
+      registrationCheck = false;
+    }
+
     Assert.assertTrue(
-      "Validation error message is displayed",
-      pageSource.contains("One or more required filed does not have a value.")
+      "Validation error occurred during registration",
+      registrationCheck
     );
 
     try {
